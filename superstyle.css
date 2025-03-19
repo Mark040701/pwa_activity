@@ -7,12 +7,12 @@ body {
 
 @font-face {
     font-family: 'MyCustomFont1';
-    src: url('/adam-warren-pro/adamwarrenpro-bold.ttf') format('truetype');
+    src: url('adam-warren-pro/adamwarrenpro-bold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'MyCustomFont2';
-    src: url('/adam-warren-pro/adamwarrenpro.ttf') format('truetype');
+    src: url('adam-warren-pro/adamwarrenpro.ttf') format('truetype');
 }
 
 .head {
