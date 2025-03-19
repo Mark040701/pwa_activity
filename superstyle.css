@@ -1,0 +1,151 @@
+body {
+    background-image: url('https://uswalldecor.com/cdn/shop/products/DY0256-disney-kids-3-marvel-spiderman-wallpaper-york-wallcoverings-white_sample.jpg?v=1571709005');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'MyCustomFont1';
+    src: url('/adam-warren-pro/adamwarrenpro-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MyCustomFont2';
+    src: url('/adam-warren-pro/adamwarrenpro.ttf') format('truetype');
+}
+
+.head {
+    color: black;
+    text-align: center;
+    background-color: red;
+    font-size: 30px;
+    font-family: 'MyCustomFont1';
+}
+
+.details {
+    position: relative;
+    width: 30%;
+    margin-right: 10px;
+   background-color: red;
+}
+
+.details p {
+    font-size: 25px;
+    font-family: 'MyCustomFont2';
+    background-color: rgba(255, 255, 255, 0.527);
+    padding: 10px;
+}
+
+
+.power-level {
+position: absolute;
+ left: 0;
+    width: 100%;
+    padding: 10px;
+    font-family: 'MyCustomFont2';
+    background-color: transparent;
+    border-radius: 30px;
+}
+
+.progress-bar {
+    width: 30%;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.progress {
+    height: 30px;
+    border-radius: 10px;
+    background-color:red;
+    text-align: center;
+    color: white;
+    font-family: 'MyCustomFont2';
+    line-height: 30px;
+}
+.abilities{
+    position: relative;
+    width: 100%;
+    margin-right: 10px;
+    background-color: red;
+}
+.abilities p{
+    font-size: 20px;
+    font-family: 'MyCustomFont2';
+    background-color: rgba(255, 255, 255, 0.527);
+    padding: 10px;
+}
+
+.spidergif {
+    position: absolute;
+    top: 20%;
+    left: 30%; /* Adjust the left position as needed */
+    width: 30%;
+    padding: 10px;
+}
+.spidergif img {
+    width: 100%; /* Make sure the image fills its container */
+}
+.picturegif {
+    position: absolute;
+    top:5%;
+    left: 90%; /* Adjust the left position as needed */
+    width: 7%;
+    padding: 10px;
+}
+.picturegif img {
+    width: 90%; /* Make sure the image fills its container */
+}
+.multispidergif {
+    position: absolute;
+    top:5%;
+    left: 4%; /* Adjust the left position as needed */
+    width: 4%;
+    padding: 10px;
+}
+.multispidergif img {
+    width: 90%; /* Make sure the image fills its container */
+}
+.swingspidergif {
+    position: absolute;
+    top: 20%;
+    left: 60.50%; /* Adjust the left position as needed */
+    width: 40%;
+    padding: 10px;
+}
+.swingspidergif img {
+    width: 100%; /* Make sure the image fills its container */
+}
+
+.dancespidergif {
+    position: absolute;
+    top: 53.90%;
+    left: 30%; /* Adjust the left position as needed */
+    width: 30%; 
+    padding: 10px;
+}
+.dancespidergif img {
+    width: 100%; /* Make sure the image fills its container */
+}
+
+.fightspidergif {
+    position: absolute;
+    top: 170%;
+    left: 30.80%; /* Adjust the left position as needed */
+    width: 30%; 
+    padding: 10px;
+}
+.fightspidergif img {
+    width: 100%; /* Make sure the image fills its container */
+}
+.crawlspidergif {
+    position: absolute;
+    top: 170%;
+    left: 62.0%; /* Adjust the left position as needed */
+    width: 40%; 
+    padding: 10px;
+}
+.crawlspidergif img {
+    width: 80%; /* Make sure the image fills its container */
+}
